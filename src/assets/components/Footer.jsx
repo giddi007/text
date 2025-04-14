@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-      <div className='py-10 bg-gray-800 border-0'>
+      <div className=' py-10 bg-gray-800 border-0 shapedividers_com-8832 pt-30'>
         <div className='md:flex md:items-start md:justify-between md:px-5'>
         <div className='md:flex md:items-start md:justify-between md:px-5'>
           <div className='my-5 md:mr-12 md:flex md:items-start'>
@@ -43,7 +43,7 @@ const Footer = () => {
             Newsletter
           </h2>
 
-          <div>
+          <div className='flex items-center justify-center gap-2'>
             <input type="email" name="" id="" placeholder='Enter your email address' className='placeholder-gray-500 border border-none rounded-4xl  text-black px-6 py-3 xl:mt-12 xl:mb-4 mt-3 md:mb-4 xl:w-130 bg-transparent md:w-40'/>
             <button className='border border-none rounded-4xl bg-blue-400 text-white px-6 py-3 xl:mt-12 xl:mb-4 mt-3 md:mb-4'> yup</button>
           </div>
@@ -63,5 +63,7 @@ const Footer = () => {
 }
 
 export default Footer
+
+
 
 

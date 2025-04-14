@@ -74,7 +74,7 @@ const Agency = () => {
           </div>
           </div>
 
-        <div className=' md:mb-15'>
+        <div className=' md:mb-15 xl:mt-15'>
          <div className='flex items-center justify-center gap-6 flex-col md:flex-row md:gap-16'>
             <div >
               <div className='relative xl:border-e-blue-500 xl:border-r-1 xl:pr-10'>

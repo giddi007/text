@@ -46,7 +46,7 @@ const Subscribe = () => {
       <div className="container">
       <div className="flex items-center justify-center flex-col md:flex-row ">
         <div className="">
-          <h1 className="text-2xl font-bold text-blue-950 text-start md:text-4xl  xl:text-4xl xl:pr-10">
+          <h1 className="text-2xl font-bold text-blue-950 text-start md:text-3xl  xl:text-4xl xl:pr-10">
             Subscribe for the exclusive updates!
           </h1>
         </div>
