@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+li {
+  padding: 5px;
+  color: aliceblue;
+}
+
+footer {
+  color: aliceblue;
+}
+
+
+.wave-divider {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .wave-divider svg {
+    height: 150px;
+  }
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-list > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slick-list > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+  }
+
+  @media (max-width: 900px) {
+    .slick-list > div {
+        gap:40px;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .slick-list > div {
+        gap: 40px;
+    }
+  }
+
+
+  .slick-track > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+  }
+
+.bg {
+    background-image: url('./img/creative-Agency-small.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-image: url('./img/h3mbbg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+   background-color: gray;
+}
+
+
+@media (max-width: 640px) {
+    .bg1 {
+        background-size: cover;
+        background-position-x: top;
+        background-position-y: bottom;
+        
+    }
+  }
+
+font {
+    font-family: quicksand, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+@media (max-width: 600) {
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+  }
